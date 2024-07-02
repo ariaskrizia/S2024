@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemones aleatorios</title>
+    <link rel="stylesheet" href="style/estilo.css">
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <h2>¡BIENVENIDO! ¡hora de la diversión pokemon!</h2>
+        <button id="pokemonButton" onclick="getPokemones()">Click para mostrar tu poke</button>
+        <div id="fotoPokemon" data-valor="200">
+        </div>
+        <div class="select-wrapper">
+            <select name="" id="listPokemones" onchange="getDataPokemon(this.value)">
+                <option>Pokemones Listado</option>
+            </select>
+        </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/assets/batallaPoke.js"></script>
+</html>

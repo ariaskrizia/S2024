@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
+    color: #fa7900; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+button {
+    background-color: #f7a204;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f17237;
+}
+
+.select-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.select-wrapper:hover select {
+    background-color: #b61d1d; /* Cambia el color de fondo al pasar el mouse */
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e75a09;
+    border-radius: 8px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#contenedor {
+    text-align: center; /* Centra el contenido dentro del div */
+    padding: 20px; /* Añade espacio interior para separar del borde */
+    background-color: #ebff77; /* Color de fondo para el contenido */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(163, 18, 18, 0.1); /* Sombra suave */
+}
